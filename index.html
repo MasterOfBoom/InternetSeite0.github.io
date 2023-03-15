@@ -1,9 +1,96 @@
 <html>
-  <head>
-    <title>Meine Erste Internetseite</title>
-  </head>
-  <body>
-    Dies ist meine Erste Internetseite.
-    Hier sehen sie nur diese zwei Sätze.
-  </body>
+	<head>
+		<title>Praktikum Formulare</title>
+	</head>
+	<body>
+		Aufgabe 2 A
+		<FORM method="post"
+		action="mailto:aik22014@nta-isny.de">
+		<INPUT type="DATE" size="30" name="Datumbalken">
+		<Input type="submit" value="Eingabe">
+		</FORM>
+		
+		<FORM method="post"
+		action="mailto:aik22014@nta-isny.de">
+		Ihr Name: <input name="Besuchername" type="text" size="30">
+		Ihre Homepage: <input name="Besucherhomepage" type="url" size="50">
+		Ihr Hobby: <input name="Hobby" size="30">
+		<input type="submit" value="Daten absenden">
+		</form>
+		
+		<hr>
+		
+		<table border="3" cellspacing="0" bordercolor="#000001">
+			<tr>
+				<td colspan="2" bgcolor="#1996da">Aufgabe 2 B
+			<tr>
+				<td colspan="2" bgcolor="silver"><br><FORM method="post"
+								action="mailto:aik22014@nta-isny.de">
+								<INPUT type="DATE" size="30" name="Datumbalken">
+								<Input type="submit" value="Eingabe">
+								</FORM>
+			<tr bgcolor="#e5872a">
+				<td>Ihr Name:<br><br>
+					Ihre Homepage:<br><br>
+					Ihr Hobby:<br><br><br>
+				<td><br><FORM method="post"
+					action="mailto:aik22014@nta-isny.de">
+					<input name="Besuchername" type="text" size="30"><br><br>
+					<input name="Besucherhomepage" type="url" size="50"><br><br>
+					<input name="Hobby" size="30"><br><br>
+					<input type="submit" value="Daten absenden">
+					</form>
+		</table>
+		<hr>
+		<table>
+			<tr>
+				<td><u>Aufgabe 3</u>
+			<tr>
+				<td>Textfeld in HTML
+				<td><textarea name="Textfeld"></textarea>
+			<tr>
+				<td>Textfeld mit ReadOnly
+				<td><textarea readonly name="Textfeld">Readonly-Textarea, welche Benutzer nicht &Uuml;berschreiben kann</textarea>
+			<tr>
+				<td><u>Aufgabe 4</u>
+			<tr>
+				<td>Auswahllisten
+				<td><form action="select.html" >
+						<label>Liste:<br>
+							<select size="2" name="Liste1" size="4" multiple>
+									<option selected>AIK</option>
+									<option>PTA</option>
+									<option>BIOTA</option>
+									<option>CTA</option>
+							</select>
+						</label>
+					</form>
+			<tr>
+				<td><u>Aufgabe 5</u>
+			<tr>
+				<td>Absendewerte von Einträgen <br>
+				<form action="https://www.google.de/?hl=de" method="get">
+					<input type="text" size="30" name="Suchleiste">
+					<input type="submit" value="Suche starten">
+					</form>
+			<tr>
+				<td>Verschachtelte Auswahllisten <br>
+				<form action="select.html" >
+						<label>Liste:<br>
+							<select size="2" name="Liste1" size="4" multiple>
+								<optgroup label="123">123	
+									<option selected>1</option>
+									<option>2</option>
+									<option>3</option>
+								</optgroup>
+							</select>
+						</label>
+					</form>
+			<tr>
+				<td>Drag and Drop field
+					<input type="file" value="Bitte hier reinziehen">
+			<tr>
+				<td>Buttons (Radiobutton, Checkbox, Klick-Button)
+				
+	</body>
 </html>
